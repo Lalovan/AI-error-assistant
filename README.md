@@ -216,6 +216,12 @@ Once the backend and magic are installed:
 - Use ```%%ai``` in cells as needed — no further setup is required.
 The FastAPI service acts as a persistent AI “brain” — it can stay running while you open new notebooks or restart kernels.
 
+**EXAMPLE:**
+
+<img width="826" height="673" alt="image" src="https://github.com/user-attachments/assets/92a24cd9-3a55-4ad9-9bf4-5c385f52f39a" />
+
+
+
 
 ## 5. Why This Is Useful...
 
