@@ -178,7 +178,7 @@ def ai(line, cell):
         error_text = traceback.format_exc()
 
         # Display the original traceback in the notebook
-        display(Markdown(f"**Python Error:**\n```\n{error_text}\n```"))
+        display(Markdown(f"**Python Error:**\n\n```\n{error_text}\n```"))
 
         # Sanitize sensitive information before sending to the LLM
 
@@ -195,7 +195,7 @@ def ai(line, cell):
         analysis = response.json().get("analysis", "No AI explanation returned.")
 
         # Display AI hint in the notebook
-        display(Markdown(f"**AI Hint:**\n```\n{analysis}\n```"))
+        display(Markdown(f"**AI Hint:**\n\n\n{analysis}\n"))
 ```
 
 Now you can write in a notebook cell:
